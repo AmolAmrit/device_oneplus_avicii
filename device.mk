@@ -101,6 +101,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
+    init.opcamera.rc \
     ueventd.qcom.rc
 
 # Component overrides
