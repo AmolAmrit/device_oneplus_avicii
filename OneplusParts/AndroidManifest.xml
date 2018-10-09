@@ -105,5 +105,7 @@
             </intent-filter>
         </service>
 
+        <activity android:name=".device.KeyHandler" />
+
     </application>
 </manifest>
