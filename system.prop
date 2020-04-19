@@ -62,6 +62,9 @@ persist.vendor.data.mode=concurrent
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# SurfaceFlinger
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
 # Vendor
 ro.vendor.qti.va_aosp.support=1
 
