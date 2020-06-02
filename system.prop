@@ -15,6 +15,7 @@ camera.disable_zsl_mode=true
 
 # Charger
 ro.charger.disable_init_blank=true
+ro.charger.enable_suspend = 1
 
 # Display
 debug.gralloc.gfx_ubwc_disable=0
