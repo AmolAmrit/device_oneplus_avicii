@@ -172,6 +172,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-oneplusparts.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oneplusparts.xml
 
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := avicii,OnePlusNord
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.oneplus_lito
