@@ -28,3 +28,9 @@ on charger
 
 service vendor.secure_element_hal_service /system/bin/true
     disabled
+
+on late-fs
+    start surfaceflinger
+    start bootanim
+    start vendor.hwcomposer-2-4
+    start vendor.qti.hardware.display.allocator
