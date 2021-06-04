@@ -116,10 +116,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0 \
     vendor.display.config@2.0
 
-# Doze
-PRODUCT_PACKAGES += \
-    OnePlusDoze
-
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -166,10 +162,14 @@ PRODUCT_PACKAGES += \
 
 # OnePlus
 PRODUCT_PACKAGES += \
-    oneplus-fwk.oneplus_lito
+    oneplus-fwk.oneplus_lito \
+    OneplusParts
 
 PRODUCT_BOOT_JARS += \
     oneplus-fwk.oneplus_lito
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-oneplusparts.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oneplusparts.xml
 
 # Power
 PRODUCT_PACKAGES += \
