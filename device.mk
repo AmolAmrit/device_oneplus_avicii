@@ -163,7 +163,8 @@ PRODUCT_PACKAGES += \
 # OnePlus
 PRODUCT_PACKAGES += \
     oneplus-fwk.oneplus_lito \
-    OneplusParts
+    OneplusParts \
+    tri-state-key_daemon
 
 PRODUCT_BOOT_JARS += \
     oneplus-fwk.oneplus_lito
@@ -205,11 +206,6 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
-
-# tri-state-key
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key_daemon
 
 # Update engine
 PRODUCT_PACKAGES += \
