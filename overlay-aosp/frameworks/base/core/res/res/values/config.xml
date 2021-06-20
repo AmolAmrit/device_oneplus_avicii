@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2015-2016 The CyanogenMod Project
                    2017-2018 The LineageOS Project
+                   2021 The Aosp Extended Project 
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -82,12 +83,6 @@
     <!-- Defines custom Vendor sensor for pocket detection. -->
     <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
 
-    <!-- Shows the required view for in-display fingerprint -->
-    <bool name="config_supportsInDisplayFingerprint">true</bool>
-
-    <!-- Whether device supports in-display fingerprint when screen is turned off -->
-    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
-
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
@@ -131,12 +126,6 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
     </integer-array>
-
-    <!-- Enable Night display, which requires HWC 2.0. -->
-    <bool name="config_nightDisplayAvailable">true</bool>
-
-    <!-- FOD icon dim-->
-    <bool name="config_targetUsesInKernelDimming">true</bool>
 
     <!-- Display has physical cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>

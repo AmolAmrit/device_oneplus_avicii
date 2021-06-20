@@ -2,6 +2,7 @@
 <!--
 /*
 ** Copyright 2009, The Android Open Source Project
+** Copyright 2021  The Aosp Extended Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -20,9 +21,7 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- Color of the FOD view -->
-    <color name="config_fodColor">#ccccac</color>
-
+   
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
@@ -34,9 +33,4 @@
     <bool name="config_statusBarBurnInProtection">true</bool>
     <integer name="config_shift_interval">40</integer>
 
-    <!-- Whether usage of the proximity sensor during doze is supported -->
-    <bool name="doze_proximity_sensor_supported">false</bool>
-
-    <!-- Allow devices to hide ringer button above volume slider -->
-    <bool name="config_hideRingerButton">true</bool>
 </resources>
