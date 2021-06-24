@@ -85,7 +85,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
 TARGET_KERNEL_HEADERS := kernel/oneplus/sm7250
 #TARGET_KERNEL_CLANG_COMPILE := true
-#TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
