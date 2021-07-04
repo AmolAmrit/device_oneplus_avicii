@@ -27,5 +27,11 @@
     "target_path": "vendor/oneplus/firmware",
     "branch": "eleven",
     "remote": "pixel-devices-blobs"
+  },
+  {
+    "remote": "private",
+    "repository": "AospExtended-Devices/platform_external_avb-keys",
+    "target_path": "external/avb-keys",
+    "branch": "master"
   }
 ]
