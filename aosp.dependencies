@@ -6,27 +6,28 @@
     "remote" :"github"
   },
   {
-    "repository": "kernel_oneplus_sm7250",
+    "repository": "AmolAmrit/android_kernel_oneplus_sm7250",
     "target_path": "kernel/oneplus/sm7250",
     "branch": "eleven"
+    "remote": "github"
   },
   {
-    "repository": "vendor_oneplus_avicii",
+    "repository": "AmolAmrit/vendor_oneplus_avicii",
     "target_path": "vendor/oneplus/avicii",
     "branch": "eleven",
-    "remote": "pixel-devices-blobs"
+    "remote": "gitlab"
   },
   {
-    "repository": "vendor_oneplus_avicii-vendor",
+    "repository": "AmolAmrit/vendor_oneplus_avicii-vendor",
     "target_path": "vendor/oneplus/avicii-vendor",
     "branch": "eleven",
-    "remote": "pixel-devices-blobs"
+    "remote": "gitlab"
   },
   {
-    "repository": "vendor_oneplus-firmware",
+    "repository": "AmolAmrit/vendor_oneplus-firmware",
     "target_path": "vendor/oneplus/firmware",
     "branch": "eleven",
-    "remote": "pixel-devices-blobs"
+    "remote": "gitlab"
   },
   {
     "remote": "private",
