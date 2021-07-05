@@ -181,3 +181,5 @@ TARGET_USES_CUSTOM_AVB_KEY := true
 
 # Inherit Prebuilt Vendor/ODM Images
 -include vendor/oneplus/avicii-vendor/BoardConfig.mk
+BOARD_PREBUILT_VENDORIMAGE :=vendor/oneplus/avicii-vendor/vendor.img
+BOARD_PREBUILT_ODMIMAGE :=vendor/oneplus/avicii-vendor/odm.img
