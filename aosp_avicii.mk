@@ -39,5 +39,5 @@ CUSTOM_DEVICE := Nord
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=Nord \
-    PRODUCT_NAME=Nord
+    PRODUCT_DEVICE=avicii \
+    PRODUCT_NAME=aosp_avicii
