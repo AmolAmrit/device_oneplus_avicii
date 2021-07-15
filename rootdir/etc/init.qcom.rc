@@ -1,5 +1,7 @@
 on post-fs
     mount none /odm/lost+found /odm/overlay bind
+    # Vibrator
+    chown system system /sys/devices/platform/soc/880000.i2c/i2c-5/5-005a/leds/vibrator/level
 
 on boot
     # Fingerprint
