@@ -56,4 +56,14 @@
 
     </PreferenceCategory>
 
-</PreferenceScreen>    
+    <PreferenceCategory
+        android:title="@string/usb_otg">
+
+        <com.oneplusparts.settings.preference.SecureSettingSwitchPreference
+            android:key="otg"
+            android:defaultValue="0"
+            android:icon="@drawable/ic_otg_tile"
+            android:summary="@string/otg_mode_summary"
+            android:title="@string/otg_mode_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

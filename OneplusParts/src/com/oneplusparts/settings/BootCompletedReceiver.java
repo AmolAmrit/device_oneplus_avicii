@@ -20,6 +20,7 @@ package com.oneplusparts.settings;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.provider.Settings;
 import android.util.Log;
 import com.oneplusparts.settings.doze.Utils;
 
@@ -32,5 +33,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
         Utils.checkDozeService(context);
+
+    FileUtils.setValue(OneplusParts.USB_OTG_PATH, Settings.Secure.getInt(context.getContentResolver(),
+                OneplusParts.PREF_USB_OTG, 0));
+
     }
 }

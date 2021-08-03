@@ -25,6 +25,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.TwoStatePreference;
 
 import com.oneplusparts.settings.doze.DozeSettingsActivity;
 import com.oneplusparts.settings.preference.VibratorStrengthPreference;
@@ -36,9 +37,12 @@ public class OneplusParts extends PreferenceFragment implements
 
     public static final String KEY_VIBSTRENGTH = "vib_strength";
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
-
+ 
+    public static final String PREF_USB_OTG = "otg";
+    public static final String USB_OTG_PATH = "/sys/class/power_supply/usb/otg_switch";
 
     private VibratorStrengthPreference mVibratorStrength;
+    private static TwoStatePreference mOTGModeSwitch;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -62,13 +66,21 @@ public class OneplusParts extends PreferenceFragment implements
         if (!VibratorStrengthPreference.isSupported()) {
             prefScreen.removePreference(vibCategory);
         }
-    }
 
+        if (FileUtils.fileWritable(USB_OTG_PATH)) {
+            mOTGModeSwitch = (TwoStatePreference) findPreference(PREF_USB_OTG);
+            mOTGModeSwitch.setEnabled(OTGModeSwitch.isSupported());
+            mOTGModeSwitch.setChecked(OTGModeSwitch.isCurrentlyEnabled(this.getContext()));
+            mOTGModeSwitch.setOnPreferenceChangeListener(new OTGModeSwitch(getContext()));
+        } else {
+            getPreferenceScreen().removePreference(findPreference(PREF_USB_OTG));
+        }
+
+    }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
     return true;
-    }       
-
+    }
 
 }
