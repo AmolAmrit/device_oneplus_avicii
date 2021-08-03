@@ -184,6 +184,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Smart Charge
+PRODUCT_PACKAGES += \
+    vendor.aosp.smartcharge@1.0-service
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \

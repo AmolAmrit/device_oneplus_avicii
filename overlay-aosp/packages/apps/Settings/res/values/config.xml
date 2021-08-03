@@ -29,4 +29,8 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">com.oneplusparts.settings/com.oneplusparts.settings.doze.DozeSettingsActivity</string>
+
+    <!-- Smart Charging enable -->
+    <bool name="config_supportSmartCharging">true</bool>
+
 </resources>
