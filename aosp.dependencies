@@ -1,12 +1,12 @@
 [
   {
-    "repository": "LineageOS/android_device_oneplus_common",
+    "repository": "AospExtended-Devices/android_device_oneplus_common",
     "target_path": "device/oneplus/common",
-    "branch" :"lineage-18.1",
+    "branch" :"11.x",
     "remote" :"github"
   },
   {
-    "repository": "AmolAmrit/android_kernel_oneplus_sm7250",
+    "repository": "AmolAmrit/Escrima_kernel_oneplus_sm7250",
     "target_path": "kernel/oneplus/sm7250",
     "branch": "eleven"
     "remote": "github"
@@ -34,5 +34,11 @@
     "repository": "AospExtended-Devices/platform_external_avb-keys",
     "target_path": "external/avb-keys",
     "branch": "master"
+  },
+  {
+    "repository": "AospExtended/platform_packages_resources_devicesettings",
+    "target_path": "platform/packages/resources",
+    "branch": "11.x",
+    "remote": "github"
   }
 ]
