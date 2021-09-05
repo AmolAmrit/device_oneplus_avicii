@@ -28,6 +28,7 @@ $(call inherit-product, vendor/aosp/common.mk)
 # Aosp Extended Properties
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
+EXTRA_FOD_ANIMATIONS := true
 
 PRODUCT_NAME := aosp_avicii
 PRODUCT_DEVICE := avicii
