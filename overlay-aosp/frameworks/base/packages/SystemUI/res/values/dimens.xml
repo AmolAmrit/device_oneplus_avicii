@@ -28,6 +28,6 @@
     <dimen name="tri_state_up_dialog_position">336px</dimen>
 
     <!-- Bottom margin size when fingerprint in display is active -->
-    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">121dp</dimen>
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">135dp</dimen>
 
 </resources>
