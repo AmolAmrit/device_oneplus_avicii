@@ -1,1 +1,2 @@
 type hal_display_default, domain;
+allow hal_display_default sysfs_color:file rw_file_perms;
