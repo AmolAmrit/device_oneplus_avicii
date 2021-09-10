@@ -39,9 +39,9 @@ PRODUCT_MODEL := OnePlus Nord (AC2001)
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/Nord/Nord:11/RP1A.201005.001/2108131839:user/release-keys"
+BUILD_FINGERPRINT := "OnePlus/Nord/Nord:11/RP1A.201005.001/2108251344:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlusNord \
     PRODUCT_NAME=OnePlusNord \
-    PRIVATE_BUILD_DESC="Nord-user 11 RP1A.201005.001 2108131839 release-keys"
+    PRIVATE_BUILD_DESC="Nord-user 11 RP1A.201005.001 2108251344 release-keys"
