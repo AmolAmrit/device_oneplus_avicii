@@ -96,6 +96,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Camera
+PRODUCT_PACKAGES += \
+    vendor.oneplus.hardware.camera@1.0.vendor:64 \
+    vendor.qti.hardware.camera.device@1.0.vendor:64
+
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc \
