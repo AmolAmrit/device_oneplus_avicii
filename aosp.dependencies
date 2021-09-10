@@ -24,6 +24,12 @@
     "remote": "pixel-devices-blobs"
   },
   {
+    "repository": "AmolAmrit/platform_vendor_oneplus_apps",
+    "target_path": "vendor/oneplus/apps",
+    "branch": "eleven",
+    "remote": "gitlab"
+  },  
+  {
     "repository": "AmolAmrit/vendor_oneplus-firmware",
     "target_path": "vendor/oneplus/firmware",
     "branch": "eleven",
@@ -38,6 +44,12 @@
   {
     "repository": "AospExtended/platform_packages_resources_devicesettings",
     "target_path": "platform/packages/resources",
+    "branch": "11.x",
+    "remote": "github"
+  },
+  {
+    "repository": "AospExtended-Devices/device_oneplus_common",
+    "target_path": "device/oneplus/common",
     "branch": "11.x",
     "remote": "github"
   }
