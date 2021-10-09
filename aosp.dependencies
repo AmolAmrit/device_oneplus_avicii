@@ -18,10 +18,10 @@
     "remote": "gitlab"
   },
   {
-    "repository": "AmolAmrit/vendor_oneplus_avicii-vendor",
+    "repository": "vendor_oneplus_avicii-vendor",
     "target_path": "vendor/oneplus/avicii-vendor",
     "branch": "eleven",
-    "remote": "gitlab"
+    "remote": "pixel-devices-blobs"
   },
   {
     "repository": "AmolAmrit/vendor_oneplus-firmware",
