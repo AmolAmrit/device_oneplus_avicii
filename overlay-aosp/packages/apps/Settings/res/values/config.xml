@@ -33,4 +33,7 @@
     <!-- Smart Charging enable -->
     <bool name="config_supportSmartCharging">true</bool>
 
+    <!-- Whether to show Google account avatar in settings -->
+    <bool name="config_show_google_account_avatar">true</bool>
+
 </resources>
