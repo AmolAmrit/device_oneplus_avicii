@@ -1,0 +1,5 @@
+allow hal_aosp_smartcharge_default vendor_sysfs_battery_supply:file { write };
+allow hal_aosp_smartcharge_default vendor_sysfs_battery_supply:file { read };
+allow hal_aosp_smartcharge_default vendor_sysfs_battery_supply:dir { search };
+allow hal_aosp_smartcharge_default vendor_sysfs_battery_supply:file { getattr };
+allow hal_aosp_smartcharge_default vendor_sysfs_battery_supply:file { open };
