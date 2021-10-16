@@ -1,0 +1,2 @@
+type oem_service,           service_manager_type;
+
