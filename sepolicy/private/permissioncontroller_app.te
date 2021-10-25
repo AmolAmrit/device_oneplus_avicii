@@ -1,0 +1,1 @@
+binder_call(permissioncontroller_app, hal_qspmhal_default)
