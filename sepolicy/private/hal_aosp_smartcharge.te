@@ -1,0 +1,2 @@
+allow hal_aosp_smartcharge_default sysfs_battery_supply:file { write read getattr open };
+allow hal_aosp_smartcharge_default sysfs_battery_supply:dir { search };
