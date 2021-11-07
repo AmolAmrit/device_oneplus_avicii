@@ -1,1 +1,2 @@
 type oneplus_camera_app, domain, coredomain;
+allow oneplus_camera_app sysfs_battery_supply:dir { search };
