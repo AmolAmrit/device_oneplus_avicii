@@ -15,11 +15,8 @@ system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so
 system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
 system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so
 system_ext/lib/libCameraMDMHelper.so
-system_ext/lib/vendor.oneplus.hardware.camera@1.0.so
-system_ext/lib/vendor.oneplus.hardware.camera@1.0-adapter-helper.so
 system_ext/lib/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
 system_ext/lib/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so
-system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
 
 # Display
 system_ext/lib64/libsdm-disp-apis.qti.so
