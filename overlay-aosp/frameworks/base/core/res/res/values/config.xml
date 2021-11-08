@@ -201,8 +201,6 @@
     <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
-
     <!-- Default fod pressed color -->
     <integer name="config_fod_pressed_color">1</integer>
-
 </resources>
