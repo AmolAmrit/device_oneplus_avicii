@@ -1,4 +1,4 @@
-# Audio
+\# Audio
 audio.offload.min.duration.secs=30
 persist.vendor.audio.hac.enable=false
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
@@ -16,6 +16,7 @@ persist.camera.privapp.list=com.oneplus.factorymode,com.oneplus.camera,com.oem.a
 persist.vendor.camera.privapp.list=com.oneplus.factorymode,com.oneplus.camera,com.oem.autotest,com.oneplus.healthcheck
 ro.opcamera.support=true
 vendor.camera.aux.packagelist=com.oneplus.factorymode,com.oneplus.camera,com.oem.autotest,com.oneplus.healthcheck
+debug.stagefright.ccodec=1
 
 # Charger
 ro.charger.disable_init_blank=true
