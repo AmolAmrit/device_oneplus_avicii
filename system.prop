@@ -53,6 +53,7 @@ iorapd.readahead.enable=true
 # Media
 media.settings.xml=/system/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
+persist.mm.enable.prefetch=true
 
 #OTG
 persist.sys.oem.otg_support=true
