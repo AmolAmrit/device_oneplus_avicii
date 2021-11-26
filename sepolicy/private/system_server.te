@@ -1,3 +1,2 @@
 r_dir_file(system_server, sysfs_battery_supply)
 allow system_server aex_data_file:file r_file_perms;
-get_prop(system_server, vendor_camera_prop)
