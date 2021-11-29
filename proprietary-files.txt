@@ -354,7 +354,6 @@ vendor/lib64/libqtikeymaster4.so
 
 # NFC
 vendor/etc/libese-nxp.conf
-vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nci_beijingbus.conf
 vendor/etc/libnfc-nci_changancard.conf
 vendor/etc/libnfc-nci_productline.conf
