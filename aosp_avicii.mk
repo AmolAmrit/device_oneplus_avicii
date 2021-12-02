@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2021 The Aosp Extended Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avicii device
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common AospExtended stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
-# PixelExperience Properties
+# AospExtended Properties
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_USES_CUSTOM_AVB_KEY := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
@@ -34,10 +35,9 @@ PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := AC2001
-CUSTOM_DEVICE := Nord
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=Nord \
-    PRODUCT_NAME=Nord
+    PRODUCT_DEVICE=OnePlusNord \
+    PRODUCT_NAME=OnePlusNord
