@@ -26,7 +26,6 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 # AospExtended Properties
-TARGET_USES_AOSP_RECOVERY := true
 TARGET_USES_CUSTOM_AVB_KEY := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
