@@ -28,6 +28,7 @@ $(call inherit-product, vendor/aosp/common.mk)
 # AospExtended Properties
 TARGET_USES_CUSTOM_AVB_KEY := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := aosp_avicii
 PRODUCT_DEVICE := avicii
