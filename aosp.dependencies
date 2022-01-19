@@ -12,6 +12,12 @@
     "remote": "github"
   },
   {
+    "repository": "AmolAmrit/device_oneplus_extras",
+    "target_path": "device/oneplus/extras",
+    "branch": "twelve",
+    "remote": "github"
+  },
+  {
     "repository": "AmolAmrit/vendor_oneplus_avicii",
     "target_path": "vendor/oneplus/avicii",
     "branch": "twelve",
@@ -26,6 +32,12 @@
   {
     "repository": "AmolAmrit/vendor_oneplus-firmware",
     "target_path": "vendor/oneplus/firmware",
+    "branch": "twelve",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "AmolAmrit/vendor_oneplus_wfdcommon",
+    "target_path": "vendor/oneplus/wfdcommon",
     "branch": "twelve",
     "remote": "gitlab"
   },
