@@ -384,7 +384,7 @@ vendor/etc/libnfc-nxp_suzhoutong.conf
 vendor/etc/libnfc-nxp_wuhantong.conf
 vendor/etc/libnfc-nxp_yangchengtong.conf
 vendor/etc/libnfc-nxp_zhengzhoubus.conf
-vendor/lib/libpn553_fw.so
+vendor/lib/libpn553_fw.so|f7d5432dd4295b415
 vendor/lib64/nfc_nci_nxp.so
 
 # ODM feature list
