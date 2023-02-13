@@ -387,6 +387,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/oplus
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
