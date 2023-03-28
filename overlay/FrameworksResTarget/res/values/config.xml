@@ -108,4 +108,7 @@
          1: Right side -->
     <integer name="config_alertSliderLocation">1</integer>
 
+    <!-- Whether doze feature is enabled by default in settings -->
+    <bool name="config_doze_enabled_by_default">true</bool>
+
 </resources>
