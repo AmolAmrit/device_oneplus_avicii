@@ -54,8 +54,8 @@
   <item name="camera.avg">658</item> <!-- Avg. power use of camera in standard usecases, ~550mA -->
   <item name="gps.on">75</item> <!-- ~50mA -->
   
-  <item name="dsp.audio">32.53</item> <!-- new add ~10mA -->
-  <item name="dsp.video">52.20</item> <!-- new add ~50mA -->
+  <item name="audio">32.53</item> <!-- new add ~10mA -->
+  <item name="video">52.20</item> <!-- new add ~50mA -->
   <item name="bluetooth.controller.idle">1</item>  <!--new add -->
   <item name="bluetooth.controller.rx">60</item>  <!--new add  -->
   <item name="bluetooth.controller.tx">90</item>  <!--new add  -->
