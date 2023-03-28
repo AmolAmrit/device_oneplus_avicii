@@ -327,6 +327,9 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     WifiResTarget
 
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := avicii,OnePlusNord,Nord
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
