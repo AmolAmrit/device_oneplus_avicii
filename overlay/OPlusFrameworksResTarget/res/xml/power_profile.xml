@@ -40,7 +40,7 @@
        significantly, so should be measured on the shipping platform
        with a power meter. -->
   <item name="none">0</item>
-  <item name="ambient on">29.53</item>
+  <item name="ambient.on.display0">29.53</item>
   <item name="screen.on.display0">80.09</item>  <!-- ~200mA -->
   <item name="screen.full.display0">241</item>  <!-- ~300mA -->
   <item name="bluetooth.active">80</item> <!-- Bluetooth data transfer, ~10mA -->
