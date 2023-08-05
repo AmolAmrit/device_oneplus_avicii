@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "AmolAmrit/device_oneplus_avicii",
+    "target_path": "device/oneplus/avicii",
+    "branch": "typhoon",
+    "remote": "github"
+  }, 
+  {
+    "repository": "AmolAmrit/Escrima_kernel_oneplus_sm7250",
+    "target_path": "kernel/oneplus/sm7250",
+    "branch": "thirteen"
+    "remote": "github"
+  },  
+  {
+    "repository": "AmolAmrit/vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii",
+    "branch": "typhoon",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "AmolAmrit/vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus/firmware",
+    "branch": "typhoon",
+    "remote": "gitlab"
+  },
+  {
+    "repository": "AmolAmrit/hardware_oplus",
+    "target_path": "hardware/oplus",
+    "branch": "typhoon",
+    "remote": "github"
+  }
+]
