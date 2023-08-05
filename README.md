@@ -2,6 +2,8 @@ Copyright (C) 2021 The Aosp Extended Project
 
 Copyright (C) 2023 The crDroid Project
 
+Copyright (C) 2023 BlissRoms
+
 Device configuration for the OnePlus Nord (avicii)
 ==================================================
 
