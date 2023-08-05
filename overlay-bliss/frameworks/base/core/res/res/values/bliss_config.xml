@@ -164,5 +164,10 @@
     <!-- Burn-in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
     <integer name="config_shift_interval">40</integer>
+
+    <!-- Smart charging -->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/devices/virtual/oplus_chg/battery/mmi_charging_enable</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
   
 </resources>
