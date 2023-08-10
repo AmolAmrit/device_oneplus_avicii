@@ -12,13 +12,13 @@
 
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system_ext/app/KeyHandler/KeyHandler.apk</item>
+        <item>/system_ext/priv-app/OPlusExtras/OPlusExtras.apk</item>
         <item>/system_ext/priv-app/TouchGestures/TouchGestures.apk</item>
     </string-array>
 
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>org.lineageos.settings.device.KeyHandler</item>
+        <item>org.evolution.oplus.OPlusExtras.slider.KeyHandler</item>
         <item>com.android.touch.gestures.KeyHandler</item>
     </string-array>
 
@@ -77,6 +77,9 @@
          1: Right side -->
     <integer name="config_alertSliderLocation">1</integer>
 
+     <!-- Whether key handler sends intent when changing slider position -->
+    <string name="config_alertSliderIntent">org.evolution.oplus.OPlusExtras.slider.UPDATE_SLIDER_POSITION</string>
+         
     <!-- Whether doze feature is enabled by default in settings -->
     <bool name="config_doze_enabled_by_default">true</bool>
 
