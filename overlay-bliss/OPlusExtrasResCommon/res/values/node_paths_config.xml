@@ -36,7 +36,7 @@
     <string name="node_high_touch_polling_rate_switch" translatable="false">/proc/touchpanel/game_switch_enable</string>
 
     <!-- USB 2.0 Force fastcharge sysfs node path -->
-    <string name="node_usb2_fast_charge_switch" translatable="false">/sys/module/oplus_chg/parameters/force_fast_charge</string>
+    <string name="node_usb2_fast_charge_switch" translatable="false">/sys/kernel/fast_charge/force_fast_charge</string>
 
     <!-- USB-OTG sysfs node path -->
     <string name="node_usb_otg_switch" translatable="false">/sys/devices/virtual/oplus_chg/usb/otg_switch</string>
