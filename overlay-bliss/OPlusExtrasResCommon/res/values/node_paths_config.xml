@@ -13,6 +13,8 @@
 
     <!-- High Brightness sysfs node path -->
     <string name="node_hbm_switch" translatable="false">/sys/kernel/oplus_display/hbm</string>
+    <string name="node_hbm_mode_switch_true">1</string>
+    <string name="node_hbm_mode_switch_false">0</string>
 
     <!-- Kcal sysfs node paths -->
     <string name="node_red_preference" translatable="false">/sys/module/msm_drm/parameters/kcal_red</string>
@@ -31,17 +33,30 @@
 
     <!-- FSync sysfs node path-->
     <string name="node_fsync_switch" translatable="false">/sys/module/sync/parameters/fsync_enabled</string>
+    <string name="node_fsync_mode_switch_true">Y</string>
+    <string name="node_fsync_mode_switch_false">N</string>
+
+    <!-- Measuered FPS sysfs node path -->
+    <string name="node_fps_info_service">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps</string>
 
     <!-- High touch polling rate procfs node path -->
     <string name="node_high_touch_polling_rate_switch" translatable="false">/proc/touchpanel/game_switch_enable</string>
+    <string name="node_game_mode_switch_true">1, smooth_level:0, sensitive_level:0, high_frame_support:1, high_frame_value:0</string>
+    <string name="node_game_mode_switch_false">0, smooth_level:0, sensitive_level:0, high_frame_support:1, high_frame_value:0</string>
+
 
     <!-- USB 2.0 Force fastcharge sysfs node path -->
     <string name="node_usb2_fast_charge_switch" translatable="false">/sys/kernel/fast_charge/force_fast_charge</string>
 
     <!-- USB-OTG sysfs node path -->
     <string name="node_usb_otg_switch" translatable="false">/sys/devices/virtual/oplus_chg/usb/otg_switch</string>
+    <string name="node_otg_mode_switch_true">1</string>
+    <string name="node_otg_mode_switch_false">0</string>
 
     <!-- Vibration strength sysfs node path -->
     <string name="node_vibrator_strength_preference" translatable="false">/sys/devices/platform/soc/880000.i2c/i2c-5/5-005a/leds/vibrator/level</string>
+
+    <!-- AdrenoBoost sysfs node path -->
+    <string name="node_adrenoboost_preference">/sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost</string>
 
 </resources>

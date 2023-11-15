@@ -27,7 +27,7 @@
     <bool name="config_deviceSupportsChangingMaxBrightness">true</bool>
 
     <!-- Whether device supports Disabling fsync -->
-    <bool name="config_deviceSupportsFSyncOff">false</bool>
+    <bool name="config_deviceSupportsFSyncOff">true</bool>
 
     <!-- Whether device supports High Touch Polling Rate -->
     <bool name="config_deviceSupportsHightTouchPollingRate">true</bool>   
@@ -43,5 +43,17 @@
 
     <!-- Whether device supports Vibration Strength -->
     <bool name="config_deviceSupportsVibStrength">true</bool>
+
+    <!-- Whether device supports FPS overlay -->
+    <bool name="config_deviceSupportsFPS">true</bool>
+ 
+    <!-- Whether device supports Per-App ColorSpace -->
+    <bool name="config_deviceSupportsPerAppColorSpace">true</bool>
+
+    <!-- Whether device supports Per-App Refresh Rate -->
+    <bool name="config_deviceSupportsPerAppRefreshRate">true</bool>
+
+    <!-- Whether device supports AdrenoBoost -->
+    <bool name="config_deviceSupportsAdrenoBoost">true</bool>    
 
 </resources>
